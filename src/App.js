@@ -1,9 +1,14 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Banner from './Banner'
+import Cart from './Cart'
 
 function App() {
-  return  (
-    <div className="App">
+  return  (<div>
+              <Banner />
+              <Cart />
+            </div>
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Bonjour</h1>
@@ -16,8 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
+    </div>*/
+  )
 }
 
 export default App;
