@@ -1,7 +1,7 @@
 import { useState } from "react";
 import '../styles/QuestionForm.css'
 function QuestionForm() {
-    const [inputValue, setInputValue] = useState ('Posez votre question ici')
+    const [inputValue, setInputValue] = useState ('Posez votre question ici ?')
     return (
         <div className="lmj-QuestionForm">
             <textarea
